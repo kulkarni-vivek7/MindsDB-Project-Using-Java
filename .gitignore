@@ -12,7 +12,6 @@ target/
 *.iml
 *.ipr
 config.properties
-images
 
 ### Eclipse ###
 .apt_generated
