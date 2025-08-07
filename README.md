@@ -156,7 +156,7 @@
            skills = ['gym_sql_skill'];
        ```
        Here `gms_ai_agent` is the name of the AGENT which is using `gym_nlq_model` as the MODEL and `gym_sql_skill` as the SKILL, which will be used by the AGENT to execute queries and provide responses based on the data it has access to.<br><br>
-  7. **Ask a Question to the AGENT** - After creating the AGENT, you can ask questions to the AGENT and it will respond with the generated SQL query or the result of the query.
+  7. **Ask a Question to the AGENT** - After creating the AGENT, you can ask questions to the AGENT and it will respond with the generated SQL query.
      * **Command to Ask a Question to the AGENT**<br><br>
        ```sql
        SELECT answer
@@ -203,13 +203,13 @@
      ```
      This file will be used to store the connection details for MindsDB and your local MySQL database. Make sure to replace the placeholders with your actual connection details and `.gitignore` this file to avoid committing sensitive information to your version control system.<br><br>
 4. **Create `MindsDBAgentService.java` class**
-   * Create a `MindsDBAgentService.java` class under `org.example.gmsnql` package and this file is used handle all MindsDB operations.
+   * Create a `MindsDBAgentService.java` class under `org.example.gmsnlq` package and this file is used to handle all MindsDB operations.
    * Through this class, you can connect to MindsDB, execute queries, and get the results from the AGENT.<br><br>
 5. **Create `RealDatabaseService.java` class**
-   * Create a `RealDatabaseService.java` class under `org.example.gmsnql` package and this file is used to connect to your local MySQL database.
+   * Create a `RealDatabaseService.java` class under `org.example.gmsnlq` package and this file is used to connect to your local MySQL database.
    * This class will be used to execute the SQL query which is returned by the AGENT and get the results from the local MySQL database.<br><br>
 6. **Create `TablePrinter.java` class**
-   * Create a `TablePrinter.java` class under `org.example.gmsnql` package and this file is used to print the query results in a tabular format.<br><br>
+   * Create a `TablePrinter.java` class under `org.example.gmsnlq` package and this file is used to print the query results in a tabular format.<br><br>
 7. **Update `Main.java` class**
-   * Update the `Main.java` class contents under `org.example.gmsnql` package to use the `MindsDBAgentService`, `RealDatabaseService` and `TablePrinter` classes to connect to MindsDB, get the results from the AGENT based on the question asked that is the correct SQL query and execute it on the local MySQL database to get the results and print them in a tabular format.
+   * Update the `Main.java` class contents under `org.example.gmsnlq` package to use the `MindsDBAgentService`, `RealDatabaseService` and `TablePrinter` classes to connect to MindsDB, get the results from the AGENT based on the question asked that is the correct SQL query and execute it on the local MySQL database to get the results and print them in a tabular format.
    * The `Main.java` class will be the entry point of your application.

@@ -1,4 +1,4 @@
-package org.example.gmsnql;
+package org.example.gmsnlq;
 
 import java.io.FileInputStream;
 import java.sql.ResultSet;
