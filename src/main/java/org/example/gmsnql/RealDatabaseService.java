@@ -31,7 +31,5 @@ public class RealDatabaseService {
             conn.close();
             return null;
         }
-//        return stmt.executeQuery(sql);
-        // Caller must close ResultSet.getStatement().getConnection() after use.
     }
 }
