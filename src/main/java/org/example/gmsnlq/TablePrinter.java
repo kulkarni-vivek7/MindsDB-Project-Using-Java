@@ -1,4 +1,4 @@
-package org.example.gmsnql;
+package org.example.gmsnlq;
 
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
