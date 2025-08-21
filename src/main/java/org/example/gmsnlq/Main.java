@@ -70,6 +70,7 @@ public class Main {
         }
     }
 
+//    To eliminate ```sql or ``` at the start and end of the generated SQL
     public static String cleanGeneratedSql(String rawSql) {
         if (rawSql == null) return null;
 
