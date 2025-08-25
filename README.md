@@ -5,8 +5,8 @@
 - It Lets You Ask Questions in normal language or SQL and get answers by Running smart AI models behind the scenes.
 - Your can train and use machine learning models right where your data lives, without moving or copying it.
 - MindsDB makes AI accessible for people who know SQL but aren't experts in Machine Learning.
-- It works many databases (like MySQL, PostgreSQL, MongoDB, and more) and data sources (like CSV files, etc.), making it easy to add AI predictions and automation.
-- In short, **MindsDB is like a smart assistant for your databases**, helping you get AI-powered insights using familiar languages like SQL or plain English.
+- It works with many databases (like MySQL, PostgreSQL, MongoDB, and more) and data sources (like CSV files, etc.), making it easy to add AI predictions and automation.
+- In short, **MindsDB is like a smart assistant for your databases**, helping you to get AI-powered insights using familiar languages like SQL or plain English.
 
 ## Steps for Self-Hosting MindsDB using Python commands
 1. **Create a Virtual Environment**
