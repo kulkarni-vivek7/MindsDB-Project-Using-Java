@@ -76,7 +76,7 @@ public class Main {
 
         String cleaned = rawSql.trim();
 
-//        Remove opening backticks + optional language tag (e.g. ```)
+//        Remove opening backticks + optional language tag (e.g. ```sql)
         if (cleaned.startsWith("```")) {
             int firstNewLine = cleaned.indexOf('\n');
             if (firstNewLine > 0) {
